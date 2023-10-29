@@ -1,4 +1,5 @@
 import React from 'react'
+import '../icon-dice.svg';
 
 const QuoteBox = ({data, random}) => {
   const randomNbr = Math.floor(Math.random() * 16);
@@ -12,7 +13,7 @@ const QuoteBox = ({data, random}) => {
         <hr className='pt-15 w-12 border-Light-Cyan'/>
       </div>
       <div className='flex justify-center text-center relative'>
-        <button className='bg-Neon-Green p-3 w-12 rounded-full absolute text-center translate-l-1/2 mt-1 shadow-xl shadow-Neon-Green transform hover:scale-125 duration-700' onClick={random}><img src="../icon-dice.svg" /></button>
+        <button className='bg-Neon-Green p-3 w-12 rounded-full absolute text-center translate-l-1/2 mt-1 shadow-xl shadow-Neon-Green transform hover:scale-125 duration-700' onClick={random}><img src="../icon-dice.svg"/></button>
       </div>
     </div>
   );
