@@ -9,7 +9,6 @@ const QuoteBox = ({data, random}) => {
       <h1 className='pb-5 text-Light-Cyan pb-8'>{data[randomNbr].text}</h1>
       <div className='flex justify-around  '>
         <hr className='pt-5 w-10  border-Light-Cyan'/>
-        <img src="../pattern-divider-desktop.svg" alt="dice"/>
         <hr className='pt-15 w-12 border-Light-Cyan'/>
       </div>
       <div className='flex justify-center text-center relative'>
