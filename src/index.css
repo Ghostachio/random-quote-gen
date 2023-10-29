@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h4{
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+h1{
+  font-size:2rem ;
+  font-weight:500; 
+}
+
